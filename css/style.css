@@ -1,0 +1,209 @@
+header {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-content: center;
+    
+    margin-bottom: 5em;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+    margin-left: 3em;
+    padding: 2em;
+    
+    width: 20em;
+}
+
+header div input {
+    width: 3em;
+}
+
+header div i {
+    margin-right: 0.5em;
+}
+
+header h1 {
+    margin-right: 2em;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    
+    font-weight: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.my-slider {
+    height: 100%;
+    text-align: center;
+    
+    
+    margin-top: 2em;
+}
+
+.my-slider ul li img {
+    box-shadow: 1px 2px 25px 1px #656565 ;
+    
+    width: 35%;
+    height: 35%;
+}
+
+.my-slider ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.unslider a {
+     background-image:  url('./assets/tip-to--left-arrow-icon-80208.png');
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    height: 3em;
+    
+    margin-top: 7em;
+    
+    
+    bottom: 0;
+    
+    
+}
+
+footer h3 {
+    margin-left: 2em;
+    
+    font-family: 'Marck Script', cursive;
+    font-weight: normal;
+    
+    font-size: 25px;
+}
+
+footer div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    margin-right: 2em;
+    
+   
+}
+
+footer div i {
+    margin: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 4.95px 0;
+    background: none;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 13.1px;
+  cursor: pointer;
+  box-shadow: 0.9px 0.9px 0px #000000, 0px 0px 0.9px #0d0d0d;
+  background: #000000;
+  border-radius: 0px;
+  border: 2.6px solid #ffffff;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.9px 0.9px 1.6px #000000, 0px 0px 0.9px #0d0d0d;
+  border: 1.7px solid #ffffff;
+  height: 23px;
+  width: 23px;
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.55px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #080808;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 13.1px;
+  cursor: pointer;
+  box-shadow: 0.9px 0.9px 0px #000000, 0px 0px 0.9px #0d0d0d;
+  background: #000000;
+  border-radius: 0px;
+  border: 2.6px solid #ffffff;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0.9px 0.9px 1.6px #000000, 0px 0px 0.9px #0d0d0d;
+  border: 1.7px solid #ffffff;
+  height: 23px;
+  width: 23px;
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 13.1px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #000000;
+  border: 2.6px solid #ffffff;
+  border-radius: 0px;
+  box-shadow: 0.9px 0.9px 0px #000000, 0px 0px 0.9px #0d0d0d;
+}
+input[type=range]::-ms-fill-upper {
+  background: #000000;
+  border: 2.6px solid #ffffff;
+  border-radius: 0px;
+  box-shadow: 0.9px 0.9px 0px #000000, 0px 0px 0.9px #0d0d0d;
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0.9px 0.9px 1.6px #000000, 0px 0px 0.9px #0d0d0d;
+  border: 1.7px solid #ffffff;
+  height: 23px;
+  width: 23px;
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 13.1px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #000000;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #080808;
+}

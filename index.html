@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="./css/unslider.css"> <!-- CSS Unslider -->
+        <link rel="stylesheet" href="./css/unslider-dots.css"> <!-- CSS Unslider -->
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> <!-- Font-awesome -->
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet"> <!-- Google font signature -->
+        
+        <title>Charliie Kreitzer</title>
+    </head>
+    
+    <body id="background">
+        <header>
+            <div>
+            <i id="ampoule" class="fa fa-lightbulb-o fa-4x" aria-hidden="true"></i>
+            <input type="range" onchange="changeBackgroundColor();" orient='circular' id="light"  value="255" max="255" min="15" step="1">
+            </div>
+            <h1 id="titre">Charliie Kreitzer Photographie</h1>
+        </header>
+        <main>
+            <div class="my-slider">
+                <ul>
+                    <li><img src="assets/15304561_1086602854781933_7530830553345757053_o.jpg"></li>
+                    <li><img src="assets/15400344_1093568637418688_5387129638518171336_n.jpg"></li>
+                    <li><img src="assets/15774860_1105659972876221_2450720430411708594_o.jpg"></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <h3 id="signature">Powered by ©Horscontexte</h3>
+            <div id="social">
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-pinterest fa-3x" aria-hidden="true"></i>
+            </div>
+        </footer>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/unslider-min.js"></script>
+        <script src="js/myslider.js"></script>
+        <script type="text/javascript" src="js/turnTheLightOn.js"></script>
+        
+    </body>
+</html>
